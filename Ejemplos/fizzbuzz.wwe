@@ -1,0 +1,24 @@
+raw
+	nxt number tres cinco quince
+
+	anunciar -> "Programa fizzbuzz\n" <-
+	anunciar -> "Ingrese el numero: " <-
+	number = promo
+
+	quince = number % 15
+	cinco = number % 5
+	tres = number % 3
+
+	jeff quince == 0
+		anunciar -> "fizzbuzz\n" <-
+	matt
+		jeff cinco == 0
+			anunciar -> "buzz\n" <-
+		matt
+			jeff tres == 0
+				anunciar -> "fizz\n" <-
+			hardy
+		hardy
+	hardy
+
+smackdown

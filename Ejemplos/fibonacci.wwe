@@ -1,0 +1,28 @@
+raw
+    nxt i n1 n2 n3 number salto
+    anunciar -> "Ingrese la cantidad de elementos: " <-
+    number = promo
+
+    n1 = 0
+    n2 = 1
+    i = 2
+
+    anunciar -> n1 <-
+    anunciar -> " " <-
+    anunciar -> n2 <-
+    anunciar -> " " <-
+
+    randy i < number
+        n3 = n1 + n2
+        anunciar -> n3 <-
+        anunciar -> " " <-
+        n1 = n2
+        n2 = n3
+        i = i + 1
+	salto = i % 10
+	jeff salto == 0
+		anunciar -> "\n" <-
+	hardy
+    orton
+
+smackdown

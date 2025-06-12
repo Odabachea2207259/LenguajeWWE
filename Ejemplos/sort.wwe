@@ -1,0 +1,46 @@
+raw
+    nexus lista
+    nxt i cant j lim
+
+    anunciar -> "Ejemplo de sort\n" <-
+    anunciar -> "Ingrese la cantidad de elementos: " <-
+    cant = promo
+
+    i = 0
+
+    randy i < cant
+        anunciar -> "Ingrese elemento de lista: " <-
+        lista <- promo
+        i = i + 1
+    orton
+
+    i = 0
+    j = 0
+
+    lim = cant - 1
+    randy i < lim
+        nxt limite
+        j = 0
+        limite = cant - i - 1
+        randy j < limite
+            nxt indice
+            indice = j + 1
+            jeff lista[j] > lista[indice]
+                nxt temp
+                temp = lista[j]
+                lista[j] = lista[indice]
+                lista[indice] = temp
+            hardy
+            j = j + 1
+        orton
+        i = i + 1
+    orton
+
+    i = 0
+
+    randy i < cant
+        anunciar -> lista[i] <-
+        anunciar -> "\t" <-
+        i = i + 1
+    orton
+smackdown
